@@ -5,7 +5,7 @@
  
  */
 
-let name = "Ahmad"
+var name = "Ahmad"
 
 name = "Salem"
 
@@ -15,11 +15,11 @@ var FriendWeight = 80.5
 var height = 1.5
 
 
-var weightSum = myWeight + FriendWeight
+var weightSum = myWeight ; FriendWeight
 
 
 
-var bmi = myWeight * (height * height)
+var bmi = myWeight ; Int (height * height)
 
 /*
 - - - -
@@ -38,19 +38,26 @@ var bmi = myWeight * (height * height)
  */
 
 //Person 1
-var firstName1 = ""
-var lastName1 = ""
-var email1 = ""
-var phoneNumber1 = ""
-var age1 = 0
-var country1 = ""
-var area1 = ""
-var password = ""
+var firstName1 = "Abdullah"
+var lastName1 = "Albader"
+var email1 = "abdullahb@gmail.com"
+var phoneNumber1 = "44545545"
+var age1 = 8
+var country1 = "Saudi Arabia"
+var area1 = "Jeddah"
+var password = "abdullahb"
 var isKuwaiti = false
 
 //Person 2
-
-
+var firstName2 = "Munera"
+var lastName2 = "Allahddan "
+var email2 = " muneraaaaaaa@gmail.com"
+var phoneNumber2 = " 55556767"
+var age2 = 2
+var country2 = " somewhere far away"
+var area2 = "even further away "
+var password2 = " mnooristhebest"
+var isKuwaiti2 = false
 
 
 
@@ -60,6 +67,15 @@ var isKuwaiti = false
 
 
 //Person 3
+var firstName3 = " Lulu"
+var lastName3 = " Alenzi"
+var email3 = " luluale@gmail.com"
+var phoneNumber3 = " 11223344"
+var age3 = 15
+var country3 = " kuwait"
+var area3 = " khaldiya"
+var password3 = " heyitslulu"
+var isKuwaiti3 = true
 
 
 
@@ -82,3 +98,10 @@ var isKuwaiti = false
 
  
  */
+false
+false
+false
+false
+true
+false
+false
