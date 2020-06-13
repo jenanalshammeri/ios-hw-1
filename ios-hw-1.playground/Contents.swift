@@ -10,16 +10,16 @@ var name = "Ahmad"
 name = "Salem"
 
 
-var myWeight = 60
+var myWeight = 60.0
 var FriendWeight = 80.5
 var height = 1.5
 
 
-var weightSum = myWeight ; FriendWeight
+var weightSum = myWeight + FriendWeight
 
 
 
-var bmi = myWeight ; Int (height * height)
+var bmi = myWeight / Double (height * height)
 
 /*
 - - - -
@@ -98,10 +98,14 @@ var isKuwaiti3 = true
 
  
  */
-false
-false
-false
-false
-true
-false
-false
+firstName1 != firstName2
+lastName1 != lastName2
+email1 != email2
+phoneNumber1 != phoneNumber2
+age1 > age2
+country1 != country2
+area1 != area2
+password != password2
+isKuwaiti == isKuwaiti2
+isKuwaiti3 == isKuwaiti2
+
