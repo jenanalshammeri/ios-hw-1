@@ -98,14 +98,25 @@ var isKuwaiti3 = true
 
  
  */
-firstName1 != firstName2
-lastName1 != lastName2
-email1 != email2
-phoneNumber1 != phoneNumber2
+
 age1 > age2
-country1 != country2
-area1 != area2
-password != password2
-isKuwaiti == isKuwaiti2
-isKuwaiti3 == isKuwaiti2
+age2 < age3
+age3 > age1
+
+area1 < area2
+area2 > area3
+area3 < area1
+
+age1 < 17
+age2 < 17
+age3 < 17
+
+age1 != 17
+age2 != 17
+age3 != 17
+
+
+
+
+
 
